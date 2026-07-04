@@ -1,0 +1,41 @@
+body{
+    background-color:antiquewhite;
+    text-align: center;
+}
+
+.box{
+    height: 70px;
+    width:80px;
+    border-radius: 1rem;
+    font-size: 40px;
+    color: darkmagenta;
+    background-color: aquamarine;
+
+}
+.game{
+    width:300px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.reset{
+    margin: 20px;
+    padding: 10px;
+    background-color: coral;
+    border-radius: 15px;
+}
+.new{
+    margin: 20px;
+    padding: 10px;
+    background-color: coral;
+    border-radius: 15px;
+
+}
+#msg{
+    font-size: 50px;
+    color: green;
+}
+.hide{
+    display: none;
+}
